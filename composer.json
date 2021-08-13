@@ -12,8 +12,8 @@
     }
   ],
   "require": {
-    "badcms/extension-manager": "^0.1",
-    "badcms/core": "^0.1"
+    "badcms/core": "^0.1",
+    "badcms/extension-manager": "^0.1.1"
   },
   "minimum-stability": "dev",  
   "autoload": {
