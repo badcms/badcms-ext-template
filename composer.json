@@ -1,0 +1,28 @@
+{
+  "name": "badcms/badcms-ext-template",
+  "description": "Plugin Example for BadCMS",
+  "keywords": ["php","learn","badcms","baikaldigitalacademy"],
+  "homepage": "https://baikaldigitalacademy.ru",
+  "license": "MIT",
+  "type": "badcms-extension",
+  "authors": [
+    {
+      "name": "BadCoder",
+      "email": "badphpcms@gmail.com"
+    }
+  ],
+  "require": {
+    "badcms/extension-manager": "^0.1",
+    "badcms/core": "^0.1"
+  },
+  "minimum-stability": "dev",  
+  "autoload": {
+    "psr-4": {
+      "BadCMS\\ExtensionTemplate\\": "src/"
+    }
+  },
+  "extra": {
+    "namespace": "BadCMS\\ExtensionTemplate\\",
+    "description": "Example plugin for BadCMS"
+  }
+}
